@@ -1,0 +1,23 @@
+Levantamento de requisitos 
+
+Sistema: Banco situacional 
+
+Descrição: o sistema denominado Banco situacional tem como objetivo trazer informações das agências bancárias do Brasil. A inserção dos 
+dados se dá pelo preenchimento de terceiros ao visitarem os bancos brasileiros e fiscalizarem sua situação física. 
+Esses dados armazenados serão disponibilizados a funcionários dos mais diversos bancos com o objetivo de otimizar a operacionalização de seus processos. 
+
+Requisitos funcionais: 
+-Cadastrar agências; 
+-Inserir situação do imóvel (nesse requito consta: Quantidade de vagas, portas, banheiros, caixas, Funcionários, bebedouros, 
+itens de segurança, distância da agência em relação à prefeitura bem como delegacia mais próxima, quantidades de janelas
+e demais informações necessárias para controle das instituições financeiras);
+-Inserir nome do preenchedor;
+-Inserir ponto focal para atendimento à agência (requisito importante para atendimentos urgentes e específicos)
+-Finalizar cadastro (ou finalizar atualização) 
+
+Requisitos não funcionais:
+-O tempo de carregamento de uma tela para outra é de até 5 segundos (Dado o hrande volume de dados que o sistema suportará)
+-A autenticação do sistema será através de uma plataforma a definir, o número de preenchedores (terceiros) terá um limite de 300 pessoas 
+(visto que o sistema deve abordar as agências brasileiras) e estes terão funcional e senha a serem definidos e atualizados semestralmente.
+-Apenas funcionários ativos das instituições financeiras terão acesso à Disponibilização dos dados pelo sistema. 
+Estes deverão ser atuantes de áreas com interesse direto nos dados disponibilizados.
